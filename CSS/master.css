@@ -1,0 +1,133 @@
+p{
+    position: relative;
+    right: 100px;
+}
+body{
+    text-align: center;
+}
+
+.ESC{
+    border: none;
+    color: rgb(205, 204, 209);
+    font-size:15px;
+}
+.fa-duotone{
+    color:rgb(205, 204, 209);
+    font-size: 25px;  
+}
+.text{
+    margin: 100px;
+}
+select{
+    border: solid 15px;
+    border-color: brown;
+}
+.fa{
+    color: rgb(206, 207, 211);
+    position: relative;
+    right: 480px;
+
+}
+.ESC:hover{
+    color: black;
+}
+.fa-duotone:hover{
+    color: black;
+}
+input{
+    border: solid 1px;
+    border-color:rgb(236, 236, 238);
+    width: 400px;
+    height: 35px;
+    margin-left: 30px;
+    padding-left: 30px; 
+}
+.Find{
+    width: 435px;
+    height: 35px;
+    border: solid;
+    border-color:rgb(236, 236, 238);
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    margin-left: 32px;
+    position: relative;
+    right:50px;
+}
+.fa-solid{
+    color: rgb(206, 207, 211);
+    position: relative;
+    right: 528px;
+}
+input[type="checkbox"] {
+    width: 20px;/*30*/
+    height: 10px;/*20*/
+    position: relative;
+    right: 80px;
+    top: 2px;
+    
+}
+.save{
+    width: 150px;
+    height: 45px;
+    color: white;
+    background-image: linear-gradient(to right, rgba(108, 176, 251), rgba(120, 135, 250));
+    border-radius: 6px;
+    border-color: rgba(108, 176, 251);
+    padding: 0;
+    position: relative;
+    right: 30px;
+}
+.cancel{
+    width: 150px;
+    height: 45px; 
+    background-color: white;
+    border: solid 1px;
+    border-color:rgb(236, 236, 238);
+    padding: 0;
+    position: relative;
+    right: 30px;
+}
+.checkbox input {
+    position: relative;
+  }
+  .checkbox input::before {
+    position: absolute;
+    content: "";
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border: 1px solid rgb(206, 207, 211);;
+    border-radius:50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: 0.3s all ease;
+  }
+  .checkbox input:checked::before {
+    background-color: rgb(143, 185, 109);
+    border: 1px solid rgb(143, 185, 109);
+  }
+  .checkbox input:checked::after {
+    position: absolute;
+    content: "\f00c";
+    font-family: "FontAwesome";
+    color: #fff;
+  } 
+  .Ethan,.Oscar,.Harry,.James,.Rosie,.Jacob,.Sarah{
+    color: gray;
+    position: relative;
+    bottom: 0px;
+    right: 465px;
+  }
+input[type="checkbox"]:checked + label{
+    color: black;
+}
+input[type="checkbox"]:checked + label + .fa-solid{
+    color: black;
+    
+}
+
+
+
